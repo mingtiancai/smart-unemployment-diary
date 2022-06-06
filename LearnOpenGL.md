@@ -9,7 +9,7 @@ https://github.com/mingtiancai/Real-Time-Rendering-Cpp17
 
 不过learOpenGL仅仅是examples中的一部分。咱所图者大！
 
-# 2.helloWindow
+## 2.1 helloWindow
 
 glfwInit---初始化GLFW
 glfwWindowHint---配置glfw一些参数
@@ -22,4 +22,10 @@ if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     return -1;
 }    
 ```
+
+## 2.2 helloTriangle
+
+VBO---顶点缓存对象
+顶点缓存对象管理渲染的对象顶点数据一次从cpu传输到gpu显存中，这样后面gpu计算就可以直接在gpu显存中引用数据。cpu到gpu大量传输数据代价比较大
+
 
