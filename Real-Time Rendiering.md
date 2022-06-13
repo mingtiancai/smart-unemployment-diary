@@ -89,3 +89,5 @@ so easy
 ### 2.3 几何处理
 ![](Real-Time-Rendering-Assets/几何处理管线内部流程图.png)
 
+vertex shading 基本的坐标变换，试图投影，在视场坐标系下，Z轴是反向于视线方向的。
+
